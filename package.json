@@ -1,0 +1,23 @@
+{
+  "name": "clockwork",
+  "version": "1.0.0",
+  "description": "Clockwork: uma biblioteca CSS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdnilsonRobert/clockwork.git"
+  },
+  "keywords": [
+    "css",
+    "clockwork"
+  ],
+  "author": "EdnilsonRobert <frontend@ednilsonrobert.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdnilsonRobert/clockwork/issues"
+  },
+  "homepage": "https://github.com/EdnilsonRobert/clockwork#readme"
+}
