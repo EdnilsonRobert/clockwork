@@ -1,1 +1,6 @@
 _TEMP
+
+resources/css/maps/
+
+node_modules/
+package-lock.json
