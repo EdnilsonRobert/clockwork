@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/EdnilsonRobert/clockwork/issues"
   },
-  "homepage": "https://github.com/EdnilsonRobert/clockwork#readme"
+  "homepage": "https://github.com/EdnilsonRobert/clockwork#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.53.0"
+  }
 }

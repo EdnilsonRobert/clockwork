@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>.clockwork</title>
+<head>
+    <meta charset="utf-8">
+    <title>.clockwork</title>
 
-        <!-- Robots -->
-        <meta name="description" content="Clockwork: uma biblioteca CSS">
-        <meta name="keywords" content="clockwork, css, desenvolvimento, front-end">
+    <!-- Robots -->
+    <meta name="description" content="Clockwork: uma biblioteca CSS">
+    <meta name="keywords" content="clockwork, css, desenvolvimento, front-end">
 
-        <!-- Humanos -->
-        <meta name="author" content="Ednilson Robert">
+    <!-- Humanos -->
+    <meta name="author" content="Ednilson Robert">
 
-        <!-- Navegadores -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="handheldfriendly" content="true">
-        <meta name="mobileoptimized" content="320">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="theme-color" content="#f76300">
+    <!-- Navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="320">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#f76300">
 
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta http-equiv="Expires" content="0">
-        <meta name="robots" content="index, follow">
-        <meta name="revisit-after" content="1 day">
-        <meta name="google" content="notranslate">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 day">
+    <meta name="google" content="notranslate">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="./favicon.svg">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg">
 
-        <!-- Folhas de estilo -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <style>
-            * { box-sizing: border-box; margin: 0; padding: 0; }
-            html { font-size: 62.5%; font-family: 'Oxygen', sans-serif; }
-            body {
-                display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;
-                font-size: 1.6rem; line-height: 1.5; background-color: hsl(0,0%,92%); color: hsl(0,0%,26%); }
-            main { max-width: 48rem; padding: 0 2.4rem; text-align: center; }
-            h1, h2 { font-weight: 300; }
-            h2 { margin-top: 1.2rem; }
-            p { margin-top: 6rem; }
-            code { font-family: monospace; color: hsl(0,0%,26%, .75); }
-            span { animation: cursor 700ms linear 100ms infinite; }
-            img { display: block; width: 100%; height: auto; }
-            @keyframes cursor { from { opacity: 1; } 33%  { opacity: 0; } 66%  { opacity: 0; } top  { opacity: 1; } }
-        </style>
+    <!-- Folhas de estilo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 62.5%; font-family: 'Oxygen', sans-serif; }
+        body {
+            display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;
+            font-size: 1.6rem; line-height: 1.5;
+            background-color: hsl(0,0%,92%); color: hsl(0,0%,26%);
+        }
+        main { max-width: 48rem; padding: 0 2.4rem; text-align: center; }
+        h1, h2 { font-weight: 300; }
+        h2 { margin-top: 1.2rem; }
+        p { margin-top: 6rem; }
+        code { font-family: monospace; color: hsl(0,0%,26%, .75); }
+        span { animation: cursor 700ms linear 100ms infinite; }
+        img { display: block; width: 100%; height: auto; }
+        @keyframes cursor {
+            from { opacity: 1; }
+            33%  { opacity: 0; }
+            66%  { opacity: 0; }
+            top  { opacity: 1; }
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="./resources/css/clockwork.min.css"> -->
+</head>
 
-        <!-- Card URL | Open Graph -->
-        <meta property="og:title" content="Clockwork">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Clockwork: uma biblioteca CSS">
-        <!-- <meta property="og:image" content="https://ednilsonrobert.dev/clockwork/resources/images/banner.png"> -->
-        <!-- <meta property="og:url" content="https://ednilsonrobert.dev/clockwork/"> -->
-
-        <!-- Manifesto -->
-        <!-- <link rel="manifest" href="./manifest.webmanifest"> -->
-
-        <!-- Diversos -->
-        <!-- <link rel="canonical" href="https://ednilsonrobert.dev/clockwork/"> -->
-    </head>
-
-    <body>
-        <main>
-            <h1><img src="./resources/images/clockwork-logo-default.svg" alt=".clockwork"></h1>
-            <h2>Clockwork: uma biblioteca CSS</h2>
-            <p><code>&lt;-- work in progress --&gt;</code><span>_</span></p>
-        </main>
-    </body>
+<body>
+    <main>
+        <h1><img src="./resources/images/clockwork-logo-default.svg" alt=".clockwork"></h1>
+        <h2>Clockwork: uma biblioteca CSS</h2>
+        <p><code>&lt;-- work in progress --&gt;</code><span>_</span></p>
+        <!-- <p><a href="./docs/docs.html">&rsaquo; Documentação</a></p> -->
+    </main>
+</body>
 </html>
